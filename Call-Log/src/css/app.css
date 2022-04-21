@@ -1,0 +1,132 @@
+/* * {
+  font-family: 'Montserrat', sans-serif;
+} */
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(5, 161, 0);
+  border-radius: 20px;
+}
+
+#app .container-view {
+  padding: 20px;
+  overflow-y: scroll;
+  height: 82%;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px;
+  border-color: rgb(204, 204, 203);
+  border-radius: 10px;
+  margin: 12px 5px 12px 5px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Serif', sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.head-activity {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; 
+  font-weight: 12px;
+}
+
+.name-details {
+  font-family: 'Roboto', sans-serif;
+}
+.call-details {
+  display: flex;
+  flex-direction: row;
+  margin: 3px 0px 3px 0px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#callDetails {
+  margin: 6px 0px 6px 0px;
+}
+
+.button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-right: 9px;
+}
+
+.navbar {
+  background-color: rgb(59, 180, 55);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 376px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#bottom-icon {
+  margin: 0px 16px 0px 16px;
+}
+/* 
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+} */
